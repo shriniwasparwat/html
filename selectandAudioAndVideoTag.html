@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 08</title>
+
+    <link rel="stylesheet" href="day08.css">
+</head>
+<body>
+    <h1 align="center"> Select Tag,Audio And Video Tag </h1>
+
+    <select name="fruits" id="frts" >
+        <option value="">Mango</option>
+        <option value="">orange</option>
+        <option value="">grapes</option>
+        <option value="">strawbeery</option>
+        <option value="">watermelon</option>
+    </select>
+
+    <select name="fruits" id="frts" >
+        <option value="">Mango</option>
+        <option value="">orange</option>
+        <option value="" selected>grapes</option>
+        <option value="">strawbeery</option>
+        <option value="">watermelon</option>
+    </select>
+
+    <select name="fruits" id="frts" multiple>
+        <option value="">Mango</option>
+        <option value="">orange</option>
+        <option value="">grapes</option>
+        <option value="">strawbeery</option>
+        <option value="">watermelon</option>
+    </select>
+
+    <select name="fruits" id="frts" size="5">
+        <option value="">Mango</option>
+        <option value="">orange</option>
+        <option value="">grapes</option>
+        <option value="">strawbeery</option>
+        <option value="">watermelon</option>
+    </select>
+
+    <select name="fruits" id="frts" >
+        <option value="">Mango</option>
+        <option value="">orange</option>
+        <option value="" disabled>grapes</option>
+        <option value="">strawbeery</option>
+        <option value="">watermelon</option>
+    </select>
+
+    <select name="cities" id="city">
+        <optgroup label="major cities">
+            <option value="">Ahmednagar</option>
+            <option value="">Delhi</option>
+            <option value="">mumbai</option>
+            <option value="">Pune</option>
+        </optgroup>
+
+        <optgroup label="All cities">
+            <option value="">Amravati</option>
+            <option value="">Beed</option>
+            <option value="">Nashik</option>
+            <option value="">Satara</option>
+        </optgroup>
+    </select>
+
+    <audio controls>
+        <source src="audio3.mp3">
+    </audio>
+    <!--<audio controls loop>
+        <source src="audio3.mp3">
+    </audio>
+    <audio controls autoplay>
+        <source src="audio3.mp3">
+    </audio> -->
+
+    <video height="300" width="300" src="video.mp4" controls poster="bullet/bullet photo.jpeg"></video>
+</body>
+
+<script src="day08.js"></script>
+</html>
